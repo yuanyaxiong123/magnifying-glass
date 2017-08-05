@@ -1,0 +1,164 @@
+.magnify{
+    width: 940px;
+    height: 550px;
+    margin: 100px auto;
+    border: 1px solid gainsboro;
+}
+.left,.right{
+    float: left;
+}
+/*left开始*/
+.left{
+    width: 400px;
+    height: 509px;
+}
+.ff{
+    width: 800px;
+    height: 400px;
+}
+.small,.big{
+    float: left;
+}
+.small{
+    width: 400px;
+    height: 400px;
+    background: yellow;
+    position: relative;
+}
+.small img{
+
+   width: 400px;
+    height: 400px;
+    display: block;
+}
+.small .move{
+    width: 200px;
+    height: 200px;
+    background: #3d6ece;
+    position: absolute;
+    display: none;
+    top: 0;
+    left: 0;
+    opacity: 0.4;
+    cursor: move;
+}
+.big{
+    width: 400px;
+    height: 400px;
+    overflow: hidden;
+    position: relative;
+    display: none;
+}
+.big_img{
+    width: 800px;
+    height: 800px;
+    position: absolute;
+
+}
+
+.img{
+    padding-left: 35px;
+    box-sizing: border-box;
+    padding-top: 20px;
+}
+.img span{
+    display:block;
+    width: 50px;
+    height: 50px;
+    overflow: hidden;
+    margin-right: 20px;
+    float: left;
+}
+.img span img{
+    width: 100%;
+}
+.img span:hover{
+    border: 1px solid #ff4400;
+}
+
+.right{
+    width: 500px;
+    height: 566px;
+    padding-left: 40px;
+}
+.right h1{
+    padding-bottom: 20px;
+    font-weight: bold;
+    font-family: '微软雅黑';
+}
+.tb-subtitle{
+    font-size: 14px;
+    font-family: '微软雅黑';
+    line-height: 30px;
+}
+
+.tb-brand-title span,.tb-brand-title img{
+    float: left;
+    padding-top: 20px;
+}
+.tb-brand-title span{
+    font-size: 14px;
+    padding-left: 10px;
+}
+.tb-meta{
+    width:100%;
+    line-height: 56px;
+    font-size: 14px;
+    background: #fff2e8;
+    font-family: '微软雅黑';
+    margin-top: 5px;
+}
+.tb-meta span:nth-child(2){
+    color: #ff4400;
+    font-size: 18px;
+    padding-left: 20px;
+}
+
+.tb-meta span:nth-child(3), .tb-meta span:nth-child(4){
+
+    font-size: 13px;
+    color:gray;
+    padding-left: 30px;
+}
+.tb-meta span:nth-child(3){
+    padding-left: 200px;
+}
+
+.tb-skin p{
+    display: inline-block;
+    line-height: 56px;
+    font-size: 14px;
+    font-family: '微软雅黑';
+}
+.tb-skin span{
+    display: inline-block;
+    width: 109px;
+    height: 28px;
+    border: 1px solid gainsboro;
+    line-height: 28px;
+    margin-left: 20px;
+    font-size: 14px;
+    padding-left: 5px;
+    cursor: pointer;
+}
+.tb-skin span:hover{
+    border: 1px solid #ff4400;
+
+}
+.button a{
+    display: inline-block;
+    line-height: 40px;
+    background: #ffe4d0;
+    padding: 0 20px;
+    color: #e5511d;
+    font-size: 14px;
+    margin-left: 20px;
+    margin-top: 30px;
+}
+.button a:last-child{
+    background: #ff4400;
+    color: white;
+}
+.button a:hover{
+    background: #ffd9bc;
+}
